@@ -3,6 +3,7 @@
 ## PGC-32
 Portable-Game-Console with custom-designed PCB, Gameplay Graphics, and 3-D Printed Case
 
-### Juan Joel Albrecht (ja643)
-### Leandro Dorta Duque (ld443)
+## Team-Members
+Juan Joel Albrecht (ja643)
+Leandro Dorta Duque (ld443)
 
