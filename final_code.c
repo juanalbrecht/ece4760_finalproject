@@ -1067,13 +1067,6 @@ static PT_THREAD (protothread_accel(struct pt *pt))
         obj_speed = ((2 * (int)(i2c_reads[0] + 16000)) >> 15) + 1;
     }
     PT_END(pt);  
-    
-    raw_gun_x = ((193 * joy_x) >> 10) + 101;
-        xPos_avg[avg_idx] = raw_gun_x;
-        avg_idx = (avg_idx+1 == 8) ? 0 : avg_idx+1;
-        gun_x = running_avg();
-        
-        obj_speed = ((2 * joy_y) >> 10) + 1;  
 }
 /* ============================================== */
 
